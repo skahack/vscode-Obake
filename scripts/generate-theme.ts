@@ -3,6 +3,6 @@ import { generateTheme } from '../src/themes'
 import { writeFile } from '../src/utils/file'
 
 writeFile(
-  join(__dirname, '..', 'themes', 'OneDark-Pro.json'),
+  join(__dirname, '..', 'themes', 'Obake.json'),
   generateTheme({ italic: true })
 )

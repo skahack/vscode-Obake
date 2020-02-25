@@ -4,7 +4,7 @@ import solarizedFlat from './editorTheme/solarizedFlat'
 import panda from './editorTheme/panda'
 import ayu from './editorTheme/ayu'
 import vscode from './editorTheme/vscode'
-import oneDarkPro from './editorTheme/oneDarkPro'
+import oneDarkPro from './editorTheme/onedarkPro'
 import { ThemeConfiguration } from '../interface'
 
 export default (config: ThemeConfiguration) => {

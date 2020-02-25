@@ -2,7 +2,7 @@ import { workspace, ConfigurationTarget } from 'vscode'
 import { join } from 'path'
 import { generateTheme } from '../themes'
 import { writeFile, promptToReload } from './index'
-const THEME_PATH = join(__dirname, '../../', 'themes', 'OneDark-Pro.json')
+const THEME_PATH = join(__dirname, '../../', 'themes', 'Obake.json')
 async function regenerateTheme() {
   const configuration = workspace.getConfiguration('oneDarkPro')
 
